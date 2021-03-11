@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="438.0" prefWidth="705.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.UpdateProduct">
+   <children>
+      <ImageView fitHeight="559.0" fitWidth="878.0" layoutX="-173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Footage/gradient-geometric-shape-background_78532-374gret.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="248.0" layoutY="303.0" mnemonicParsing="false" onAction="#clickUpdate" prefHeight="39.0" prefWidth="208.0" style="-fx-background-radius: 20; -fx-background-color: #784e28;" text="Update" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Bloom />
+         </effect></Button>
+      <TextField fx:id="txtProductName" layoutX="201.0" layoutY="167.0" prefHeight="39.0" prefWidth="302.0" promptText="Product name" style="-fx-background-radius: 5;" />
+      <ComboBox fx:id="cmbCategory" layoutX="201.0" layoutY="214.0" prefHeight="39.0" prefWidth="302.0" promptText="Select Category" style="-fx-background-radius: 5;" visibleRowCount="4">
+         <effect>
+            <Glow level="0.0" />
+         </effect></ComboBox>
+      <TextField fx:id="txtID" layoutX="201.0" layoutY="119.0" prefHeight="39.0" prefWidth="302.0" promptText="Product ID" style="-fx-background-radius: 5;" />
+   </children>
+</AnchorPane>

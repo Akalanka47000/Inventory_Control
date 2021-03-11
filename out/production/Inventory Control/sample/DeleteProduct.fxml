@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="429.0" prefWidth="646.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.DeleteProduct">
+   <children>
+      <ImageView fitHeight="538.0" fitWidth="1210.0" layoutX="-34.0" layoutY="-32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/pngtree-kitchen-with-love-simple-kitchen-utensils-shop-home-background-image_158739.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="336.0" layoutY="179.0" mnemonicParsing="false" onAction="#clickDelete" prefHeight="36.0" prefWidth="206.0" style="-fx-background-radius: 20;" text="Delete" />
+      <TextField fx:id="txtDelete" layoutX="307.0" layoutY="124.0" prefHeight="36.0" prefWidth="264.0" promptText="Enter product id to delete" style="-fx-background-radius: 5;" />
+   </children>
+</AnchorPane>

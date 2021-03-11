@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="740.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.searchProduct">
+   <children>
+      <ImageView fitHeight="496.0" fitWidth="783.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/electrical.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="411.0" layoutY="311.0" mnemonicParsing="false" onAction="#clickSearch" prefHeight="36.0" prefWidth="206.0" style="-fx-background-radius: 20;" text="Search" />
+      <TextField fx:id="txtSearch" layoutX="382.0" layoutY="245.0" prefHeight="36.0" prefWidth="264.0" promptText="Enter search criteria" style="-fx-background-radius: 5;" />
+      <ComboBox fx:id="cmbSearchCriteria" layoutX="382.0" layoutY="198.0" prefHeight="36.0" prefWidth="264.0" promptText="Search by ID or name?" style="-fx-background-radius: 5;" visibleRowCount="2" />
+   </children>
+</AnchorPane>

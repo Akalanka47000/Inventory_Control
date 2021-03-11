@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="457.0" prefWidth="675.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddCategory">
+   <children>
+      <ImageView fitHeight="465.0" fitWidth="687.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/fruits-background-fruits-background-organic.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="88.0" layoutY="229.0" mnemonicParsing="false" onAction="#addCategory" prefHeight="39.0" prefWidth="208.0" style="-fx-background-radius: 20;" text="Add">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextField fx:id="txtCategory" layoutX="41.0" layoutY="177.0" prefHeight="39.0" prefWidth="302.0" promptText="Enter Category" style="-fx-background-radius: 7;" />
+   </children>
+</AnchorPane>

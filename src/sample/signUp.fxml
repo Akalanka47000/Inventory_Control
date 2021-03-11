@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="638.0" prefWidth="956.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUp">
+   <children>
+      <ImageView fitHeight="646.0" fitWidth="956.0" pickOnBounds="true" preserveRatio="true">
+         <effect>
+            <Glow level="0.49" />
+         </effect>
+         <image>
+            <Image url="@../Footage/Create%20account%20screen.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtUsername" layoutX="333.0" layoutY="234.0" prefHeight="36.0" prefWidth="304.0" promptText="Username" />
+      <PasswordField fx:id="txtPassword" layoutX="333.0" layoutY="286.0" prefHeight="36.0" prefWidth="304.0" promptText="Password" />
+      <Button fx:id="btnLogin" layoutX="333.0" layoutY="338.0" mnemonicParsing="false" onAction="#login" prefHeight="36.0" prefWidth="304.0" style="-fx-background-color: #106ee0;" text="Login" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Bloom threshold="0.42" />
+         </effect></Button>
+      <Button fx:id="btnBack" layoutX="333.0" layoutY="390.0" mnemonicParsing="false" onAction="#goBacktoMain" prefHeight="36.0" prefWidth="304.0" style="-fx-background-color: #e02c10;" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Bloom threshold="0.21" />
+         </effect></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="416.0" prefWidth="463.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.About">
+   <children>
+      <ImageView fitHeight="443.0" fitWidth="705.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/About.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="119.0" layoutY="169.0" prefHeight="18.0" prefWidth="304.0" text="Inventory Control System Version 1.0" textFill="WHITE" />
+      <Label layoutX="107.0" layoutY="203.0" prefHeight="18.0" prefWidth="252.0" text="Build Information" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <Label layoutX="119.0" layoutY="221.0" prefHeight="18.0" prefWidth="278.0" text="- Date: 2020/04/01" textFill="WHITE" />
+      <Label layoutX="119.0" layoutY="283.0" prefHeight="18.0" prefWidth="149.0" text="#Akalanka Perera " textFill="WHITE" />
+      <Label layoutX="107.0" layoutY="266.0" prefHeight="18.0" prefWidth="252.0" text="Developed by" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="107.0" layoutY="150.0" prefHeight="18.0" prefWidth="252.0" text="Product Version" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

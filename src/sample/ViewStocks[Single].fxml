@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="511.0" prefWidth="754.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewStocksSingle">
+   <children>
+      <ImageView fitHeight="522.0" fitWidth="769.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/different-makeup-cosmetics-brushes-white-background_23-2147878833.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="102.0" layoutY="300.0" mnemonicParsing="false" onAction="#clickSearch" prefHeight="39.0" prefWidth="208.0" style="-fx-background-radius: 20;" text="View Stocks">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextField fx:id="txtSearch" layoutX="55.0" layoutY="246.0" prefHeight="39.0" prefWidth="302.0" promptText="Enter product ID" style="-fx-background-radius: 5;" />
+      <Label fx:id="lblStock" alignment="CENTER" layoutX="61.0" layoutY="356.0" prefHeight="48.0" prefWidth="286.0" text="99">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

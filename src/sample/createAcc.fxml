@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="638.0" prefWidth="956.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CreateAcc">
+   <children>
+      <ImageView fitHeight="679.0" fitWidth="969.0" layoutY="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/Create%20account%20screen.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtUsername" accessibleText="SFSFSDFFD" layoutX="379.0" layoutY="226.0" prefHeight="27.0" prefWidth="228.0" promptText="Username" />
+      <TextField fx:id="txtEmail" accessibleText="SFSFSDFFD" layoutX="379.0" layoutY="263.0" prefHeight="27.0" prefWidth="228.0" promptText="Email Address" />
+      <PasswordField fx:id="txtPassword" layoutX="379.0" layoutY="302.0" prefHeight="27.0" prefWidth="228.0" promptText="Password" />
+      <PasswordField fx:id="txtConfirmPassword" layoutX="379.0" layoutY="341.0" prefHeight="27.0" prefWidth="228.0" promptText="Confirm Password" />
+      <Button fx:id="btnCreate" alignment="CENTER" contentDisplay="CENTER" layoutX="379.0" layoutY="382.0" mnemonicParsing="false" onAction="#proceedWithCreation" prefHeight="27.0" prefWidth="228.0" style="-fx-background-color: #036bfc;" text="Create Account" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Bloom />
+         </effect></Button>
+      <Label alignment="CENTER" layoutX="435.0" layoutY="170.0" text="Sign Up" textFill="#262626">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Button fx:id="btnBack" layoutX="379.0" layoutY="420.0" mnemonicParsing="false" onAction="#goBacktoMain" prefHeight="27.0" prefWidth="228.0" style="-fx-background-color: #1e0c94;" text="Back" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Bloom />
+         </effect></Button>
+   </children>
+</AnchorPane>

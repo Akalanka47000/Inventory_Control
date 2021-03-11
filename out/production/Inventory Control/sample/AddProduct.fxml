@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="457.0" prefWidth="675.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddProduct">
+   <children>
+      <ImageView fitHeight="489.0" fitWidth="757.0" layoutX="-13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/top-view-frame-with-cleaning-products-blue-background_23-2148357506.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="268.0" layoutY="257.0" mnemonicParsing="false" onAction="#clickAdd" prefHeight="39.0" prefWidth="208.0" style="-fx-background-radius: 20;" text="Add">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <TextField fx:id="txtProductName" layoutX="221.0" layoutY="135.0" prefHeight="39.0" prefWidth="302.0" promptText="Product name" style="-fx-background-radius: 7;" />
+      <ComboBox fx:id="cmbCategory" layoutX="221.0" layoutY="182.0" prefHeight="39.0" prefWidth="302.0" promptText="Select Category" style="-fx-background-radius: 7;" visibleRowCount="4" />
+      <TextField fx:id="txtID" layoutX="221.0" layoutY="87.0" prefHeight="39.0" prefWidth="302.0" promptText="Product ID" style="-fx-background-radius: 7;" />
+   </children>
+</AnchorPane>

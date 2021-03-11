@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="223.0" prefWidth="340.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CategoryViewController">
+   <children>
+      <TableView fx:id="tblView" layoutY="-4.0" prefHeight="233.0" prefWidth="340.0">
+        <columns>
+          <TableColumn fx:id="tblColumn" prefWidth="339.1999877691269" text="CategoryName" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

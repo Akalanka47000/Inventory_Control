@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewStockDetails">
+   <children>
+      <TableView fx:id="tblView" layoutY="-4.0" prefHeight="408.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="tblColumnProduct" prefWidth="290.4000244140625" text="Product Name" />
+            <TableColumn fx:id="tblColumnStocks" prefWidth="308.79998779296875" text="Stocks Available" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="430.0" prefWidth="702.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.EditProduct">
+   <children>
+      <ImageView fitHeight="464.0" fitWidth="875.0" layoutX="-170.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/gradient-geometric-shape-background_78532-374gret.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="250.0" layoutY="270.0" mnemonicParsing="false" onAction="#clickGO" prefHeight="36.0" prefWidth="206.0" style="-fx-background-radius: 20; -fx-background-color: #784e28;" text="Go" textFill="WHITE">
+         <effect>
+            <Bloom threshold="0.29" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor></Button>
+      <TextField fx:id="txtIDtoModify" layoutX="221.0" layoutY="207.0" prefHeight="36.0" prefWidth="264.0" promptText="Enter product ID to modify" style="-fx-background-radius: 5;" />
+   </children>
+</AnchorPane>

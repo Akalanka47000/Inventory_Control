@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="638.0" prefWidth="956.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fitHeight="650.0" fitWidth="962.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Footage/gettyimages-868776554-612x612.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnNewAcc" layoutX="634.0" layoutY="409.0" mnemonicParsing="false" onAction="#accCreate" prefHeight="58.0" prefWidth="256.0" style="-fx-background-color: #34eb4f; -fx-background-radius: 40;" text="Create Account" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Bloom threshold="0.81">
+               <input>
+                  <DropShadow blurType="ONE_PASS_BOX" height="1.0" offsetY="0.5" radius="0.0" width="0.0" />
+               </input></Bloom>
+         </effect></Button>
+      <Button fx:id="btnLogin" layoutX="634.0" layoutY="482.0" mnemonicParsing="false" onAction="#signUp" prefHeight="58.0" prefWidth="256.0" style="-fx-background-color: #ff3300; -fx-background-radius: 40;" text="Log In" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <effect>
+            <Bloom threshold="0.5">
+               <input>
+                  <DropShadow blurType="ONE_PASS_BOX" height="0.0" offsetY="0.5" radius="0.0" width="0.0" />
+               </input>
+            </Bloom>
+         </effect></Button>
+   </children>
+   <effect>
+      <Glow level="0.2" />
+   </effect>
+</AnchorPane>
